@@ -21,7 +21,7 @@ void solve()
 {
     ll x1, y1, x2, y2, x3, y3;
     cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3;
-    ll m = ((x3 - x2) * (y2 - y1)) - ((y3 - y2) * (x2 - x1));
+    ll m = ((x3 - x2) * (y2 - y1)) - ((y3 - y2) * (x2 - x1));//slope difference(slope P1P2-slope P2P3=0)
     if (m == 0)
         cout << "TOUCH\n";
     else if (m < 0)
